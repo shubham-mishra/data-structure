@@ -90,7 +90,7 @@ public class Sorting {
 
     private void sort(int[] arr, int l, int r) {
         if(l < r){
-            System.out.println("run");
+           
             int pivot = findPivot(arr, l, r);
             sort(arr, l, pivot - 1);
             sort(arr, pivot + 1, r);
